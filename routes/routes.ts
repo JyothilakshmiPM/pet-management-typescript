@@ -31,6 +31,8 @@ const petRoute = () => {
 
     router.delete("/pet/:id", deletePet);
 
+    router.post("/category", category);
+
     return router;
 }
 
